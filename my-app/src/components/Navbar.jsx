@@ -1,12 +1,7 @@
-import Navbar from './components/Navbar.jsx';
+import { Link } from 'react-router-dom';
 
-export default function App() {
-  return (
-    <>
-      <Navbar />
-      <div>text</div>
-    </>
-  );
+function Navbar() {
+  return <div style={{ background: 'lightgray', padding: '1rem' }}>Navbar syns!</div>;
 }
 
-
+export default Navbar;
