@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom';
+
 function Hero() {
-  return <h1 style={{ color: 'blue' }}>Hero fungerar!</h1>;
+  return <div style={{ background: 'lightgray', padding: '1rem' }}>Hero syns!</div>;
 }
 
 export default Hero;

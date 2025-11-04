@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
 
-function Navbar() {
-  return <div style={{ background: 'lightgray', padding: '1rem' }}>Navbar syns!</div>;
+export default function Navbar() {
+  return (
+    <nav>
+      <Link to="/">Hem</Link> |{" "}
+      <Link to="/about">Om oss</Link> |{" "}
+      <Link to="/contact">Kontakt</Link>
+    </nav>
+  );
 }
-
-export default Navbar;
