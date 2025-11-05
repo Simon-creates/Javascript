@@ -1,0 +1,41 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;      
+    z-index: 1000
+}
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12372A;
+    color: rgb(255, 255, 255);  
+    padding: 0.75rem 4rem 0.75rem;  
+    margin: 0;
+    width: 100%;
+}
+.contact-info {
+    display: flex;
+    align-items: center;     
+    gap: 1.5rem;             
+}
+
+.contact-info span {
+    display: flex;
+    align-items: center;     
+    gap: 0.4rem;            
+    font-size: 0.95rem;
+}
+
+.social-media{
+    display: flex;
+    align-items: center; 
+    gap: 1rem;
+}
+.navbar-bottom{
+    background-color: white;
+    
+    
+}
+
