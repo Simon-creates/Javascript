@@ -35,7 +35,25 @@
 }
 .navbar-bottom{
     background-color: white;
-    
-    
-}
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    gap: 1rem;    
+    padding: 0.75rem 4rem 0.75rem;  
+    margin: 0;
+    width: 100%;
 
+}
+.book-button button{
+    background-color: #F1C30C;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 2rem;
+    color:#12372A;
+    cursor: pointer;
+    font-weight: 600;
+}
+.book-button button:hover {
+  background-color: var(--secondary-color, #436850b8);
+  transform: translateY(-2px);
+}

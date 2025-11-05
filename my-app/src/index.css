@@ -1,6 +1,19 @@
+/*Uppdatera root-innehållet
 :root {
-  font-family: 'Courier New', Courier, monospace;
-}
+  --primary-color: #12372A;
+  --secondary-color: #436850;
+  --accent-color: #ADBC9F;
+
+  --text-color: #333;
+  --bg-color: #f8f8f8;
+
+  --font-main: 'Poppins', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+
+  --max-width: 1200px;
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
+} */
 
 
 body {
@@ -9,7 +22,10 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Inter", sans-serif;
 }
+
+
 
 h1 {
   font-size: 3.2em;
