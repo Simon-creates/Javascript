@@ -1,7 +1,27 @@
-.Hero {
-  background-color: #12372acf;
-  padding: 4rem 2rem;
-  text-align: center;
-  height: 2000px;
+.hero-wrapper {
+    display: flex;    
+    align-items: center;
+    width: 100%;
+    background-color: #12372acf; 
+    padding: 2rem 0;              
 }
 
+.hero-container {
+    max-width: 1000px; 
+    margin: 0 auto;    
+    padding: 1rem;      
+    box-sizing: border-box;
+}
+.discover-button button{
+    background-color: #F1C30C;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 2rem;
+    color:#12372A;
+    cursor: pointer;
+    font-weight: 600;
+}
+.discover-button button:hover {
+  background-color: var(--secondary-color, #436850b8);
+  transform: translateY(-2px);
+}
