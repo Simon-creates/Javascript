@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import './Hero.css';
 
-function Hero() {
+
+export default function Hero() {
   return (
-    <div>text Hero-sektion</div>
+    <nav className="Hero">
+      <div>text hero</div>
 
- ); 
-  
+    </nav>
+    
+  );
 }
 
-export default Hero;
