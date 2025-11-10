@@ -12,6 +12,10 @@ html, body, #root {
 
 #root {
   display: block;
+  --primary-color: #12372acf;
+  --secondary-color: #F1C30C;
+  --text-color: #222;
+  --bg-light: #f7f7f7;
 }
 
 h1 {
