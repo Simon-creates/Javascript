@@ -17,11 +17,12 @@ export default function Hero() {
         </div>      
         <div className="discover-button">
           <button>Discover More</button>
-        </div>
-      </div>
+        </div>        
+      </div>  
       <div className="hero-image">
-        <img src="/images/Hero_img.svg" alt="Hero image" />
-      </div>
-    </section>
+          <img src="/images/Hero_img.svg" alt="Hero image" />
+        </div>    
+            
+    </section>    
   );
 }

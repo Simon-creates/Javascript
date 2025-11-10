@@ -1,6 +1,8 @@
 .hero-wrapper {
     display: flex;   
+    flex-direction: row;
     justify-content: center; 
+    align-items: flex-end;
     width: 100%;
     background-color: #12372acf; 
     padding: 2rem 0;   
@@ -21,6 +23,10 @@
     font-size: 1.5rem;
     transition: color 0.3s ease, transform 0.2s ease;
 }
+.link-welcome a:hover {
+  color:#12372A !important;
+  transform: translateY(-2px);
+}
 .hero-content {
     color: #F1FFEA        
 }
@@ -38,13 +44,17 @@
     font-weight: 600;
 }
 .discover-button button:hover {
-  background-color: var(--secondary-color, #436850b8);
+  background-color: #FFFFFF;
+  color:#12372A;
   transform: translateY(-2px);
 }
+
 .hero-image {
     display: block;
     height: auto;
     object-fit: contain;
-    align-self: flex-end;
+    align-self: bottom;
     margin: 0;
-}
+};
+
+   
