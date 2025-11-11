@@ -20,7 +20,7 @@ export default function About() {
                 <h2 className="about_title">Providing a Safe Space for Your Treasured Items</h2>
                 <p className="about_text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. 
-                    Nulla quis nulla leo. Mauris ac blandit nisl, non sodales augue.
+                    Nulla quis nulla leo. Mauris ac blandit nisl, non sodales augue. Phasellus eget elit gravida.
                 </p>
 
                 <div className="about_cards">

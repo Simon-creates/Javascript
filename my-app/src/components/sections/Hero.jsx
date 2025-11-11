@@ -19,7 +19,7 @@ export default function Hero() {
       </div>  
       <div className="hero-image">
           <img src="/images/Hero_img.svg" alt="Hero image" />
-        </div>    
+      </div>    
             
     </section>    
   );

@@ -1,5 +1,6 @@
 import Hero from "../sections/Hero";
 import About from "../sections/About";
+import Logos from "../sections/Logos";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <About />
+      <Logos />
     </>
   );
 }
