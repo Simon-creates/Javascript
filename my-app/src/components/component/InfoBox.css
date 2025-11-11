@@ -1,0 +1,9 @@
+.info-box{
+    background: white;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 2px solid #ECECEC;
+    flex: 1;
+}
+

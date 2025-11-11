@@ -1,0 +1,27 @@
+.Footer {    
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: #12372A;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+}
+.footer-container{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Copyright{
+    display: flex;
+    align-items: center;
+     gap: 0.5rem;   
+}
+.TermsPrivacy {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

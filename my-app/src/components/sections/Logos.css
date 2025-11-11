@@ -1,14 +1,17 @@
 .Logos {
+    background-color:#FAF8EC;           
+}
+.Logos-container{
     display: flex;
     justify-content: center; 
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
     gap: 5rem;   
-    padding: 2rem;          
-  
+    padding: 2rem; 
+
 }
-.Logos img {
+.Logos-container img {
     max-width: 80%;
     height: auto;
 }
