@@ -1,8 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar.jsx';
-import Home from './components/Home.jsx';
-import Hero from './components/Hero.jsx';
-import About from './components/About.jsx';
+import Navbar from './components/sections/Navbar.jsx';
+import Home from './components/pages/Home.jsx';
+import AboutPage from './components/pages/AboutPage.jsx';
 import './App.css';
 
 
@@ -12,14 +11,8 @@ export default function App() {
       <Navbar /> 
       <main>
         <Routes>
-            <Route path="/" element={
-              <>
-              <Hero />
-              <About />
-              </>
-              } 
-              />           
-            
+           <Route path="/" element={<Home />} />          
+           <Route path="/about" element={<AboutPage />} /> 
         </Routes>        
       </main>
     </>

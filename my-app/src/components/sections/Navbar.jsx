@@ -35,9 +35,9 @@ export default function Navbar() {
           <img src="/images/Logo.svg" alt="Logo StoreAid" />
         </div>
         <div className="pages">
-          <Link to="/">Home</Link> {" "}
-          <Link to="/about">About Us</Link> {" "}
-          <Link to="/contact">Services</Link> {" "}
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
           <Link to="/contact">Contact Us</Link>
         </div>
         <div className="book-button">
