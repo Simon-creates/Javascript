@@ -7,11 +7,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 .Why-left,
 .Why-right {
   flex: 1;
+}
+.Why-left h2{
+    font-size: 1.5rem;
+    font-weight: 700;    
+}
+.Why-left h1{
+    font-weight: 600;
 }
 
 
@@ -20,4 +28,5 @@
     border: 3px solid#ececec;
     height: 400px;  
     width: 550px;
+    margin-top: 3rem;
 }

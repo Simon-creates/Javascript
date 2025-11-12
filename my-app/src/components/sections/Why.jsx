@@ -12,9 +12,17 @@ export default function Why() {
             <h2>Why Choose Us</h2>
             <h1>Choose Us for Exceptional <br/> Storage Solutions</h1>
             <WhyBox title="Security and Safety">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </WhyBox>
-        
+            <WhyBox title="Flexible and Affordable">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </WhyBox>
+            <WhyBox title="Clean and Well-Maintained Facilities">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </WhyBox>
+            <WhyBox title="24/7 and Convenient Access">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </WhyBox>        
         
         </div>
 

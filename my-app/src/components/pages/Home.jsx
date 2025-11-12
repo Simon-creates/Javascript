@@ -4,6 +4,7 @@ import Logos from "../sections/Logos";
 import Services from "../sections/Services";
 import Testimonials from "../sections/Testimonials";
 import Why from "../sections/Why";
+import Pricing from "../sections/Pricing";
 import Subscribe from "../sections/Subscribe";
 import { useEffect } from 'react';
 
@@ -36,6 +37,7 @@ export default function Home() {
       <Services />
       <Testimonials />
       <Why />
+      <Pricing />
       <Subscribe />      
     </section>
   );

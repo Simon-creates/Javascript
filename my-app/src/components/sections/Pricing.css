@@ -1,0 +1,15 @@
+.pricing{
+    background-color: #FFFFFF;
+}
+.pricing-top{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.pricing-subtitle{
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}

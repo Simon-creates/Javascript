@@ -1,10 +1,11 @@
 import './WhyBox.css';
 
-export default function WhyBox({ title, children }) {
+export default function WhyBox({ title, image, children }) {
   return (
     <div className="Why-box">
-      <h2>{title}</h2>
-      <p>{children}</p>
+        {image && <img src={image} alt={title} className="why-image" />}
+        <h2>{title}</h2>
+        <p>{children}</p>
     </div>
   );
 }
