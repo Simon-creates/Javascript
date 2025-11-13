@@ -1,11 +1,13 @@
-import Hero from "../sections/Hero";
+import Subscribe from "../sections/Subscribe";
+import ContactUs from "../sections/ContactUs";
 
 
 
 export default function Contact() {
   return (
     <>
-      <Hero />
+      <ContactUs />
+      <Subscribe />
       
       
     </>

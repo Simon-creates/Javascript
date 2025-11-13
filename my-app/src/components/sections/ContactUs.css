@@ -1,0 +1,27 @@
+.contactus-wrapper {
+    display: flex; 
+    justify-content: center;    
+    width: 100%;
+    height: auto;
+    background-color: #12372acf;  
+    padding-top: 10rem;  
+    padding-bottom: 9rem;  
+}
+
+.contactus-container {
+    max-width: 1400px;  
+    width: 100%;
+    text-align: left;
+    padding-right: 50rem;
+}   
+
+.contactus-content {
+    color: #F1FFEA;         
+}
+.contactus-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+
