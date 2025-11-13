@@ -1,0 +1,35 @@
+.blogpost{    
+    background-color: #12372A;
+    color: rgb(255, 255, 255);
+    border-radius: 0.25rem;
+    text-align: left;
+    padding: 1.5rem;    
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
+.blog-gray{  
+    background-color: #d2d2d2;    
+    border-radius: 0.25rem;
+    height: 200px;  
+    width: 350px; 
+    margin-bottom: 1rem;   
+}
+.date, .h3-blog, .readmore {
+  display: block;
+  margin-bottom: 1rem; 
+}
+.date{
+    font-size: 0.75rem;   
+}
+.h3-blog{
+    font-size: 1.25rem;
+}
+.readmore{
+    list-style: none;
+    color: var(--secondary-color);
+    padding: 0;
+    margin-left: 0;
+}
+
+

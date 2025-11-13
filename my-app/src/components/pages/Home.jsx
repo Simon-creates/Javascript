@@ -6,6 +6,7 @@ import Testimonials from "../sections/Testimonials";
 import Why from "../sections/Why";
 import Pricing from "../sections/Pricing";
 import Looking from "../sections/Looking";
+import Blog from "../sections/Blog";
 import Subscribe from "../sections/Subscribe";
 import { useEffect } from 'react';
 
@@ -40,6 +41,7 @@ export default function Home() {
       <Why />
       <Pricing />
       <Looking />
+      <Blog />
       <Subscribe />      
     </section>
   );
