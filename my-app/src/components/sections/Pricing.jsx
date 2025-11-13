@@ -27,9 +27,8 @@ export default function Pricing() {
             "Etiam eget libero non ligula",
             ]}
             buttonText="Rent Now"
-            >                  
-            </PricingBox>
-             <PricingBox 
+            />
+            <PricingBox 
             title="Small Unit"
             price="50"
             period="/month"
@@ -41,10 +40,13 @@ export default function Pricing() {
             "Duis gravida enim porta",
             "Etiam eget libero non ligula",
             ]}
-            buttonText="Rent Now"
-            >                  
-            </PricingBox>
-             <PricingBox 
+            buttonText="Rent Now"    
+            style={{ 
+                backgroundColor: '#12372A',
+                color: '#fff'
+            }}                       
+            />
+            <PricingBox 
             title="Large Unit"
             price="150"
             period="/month"
@@ -56,10 +58,9 @@ export default function Pricing() {
             "Duis gravida enim porta",
             "Etiam eget libero non ligula",
             ]}
-            buttonText="Rent Now"
-            >                  
-            </PricingBox>
-             <PricingBox 
+            buttonText="Rent Now"                                    
+            />
+            <PricingBox 
             title="Executive Unit"
             price="200"
             period="/month"
@@ -71,9 +72,8 @@ export default function Pricing() {
             "Duis gravida enim porta",
             "Etiam eget libero non ligula",
             ]}
-            buttonText="Rent Now"
-            >                  
-            </PricingBox>
+            buttonText="Rent Now"                             
+            />
         </div>
             
     </section>    

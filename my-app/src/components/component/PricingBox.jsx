@@ -1,9 +1,9 @@
 import './PricingBox.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-export default function PricingBox({ title, price, period, description, features, buttonText }) {
+export default function PricingBox({ title, price, period, description, features, buttonText, className, style }) {
   return (
-    <div className="pricing-box">
+    <div className={`pricing-box ${className || ""}`} style={style}>
       <h3>{title}</h3>
       <div className="price">
         <span className="currency">$</span>
@@ -18,6 +18,7 @@ export default function PricingBox({ title, price, period, description, features
         ))}
       </ul>
       <button className="btn btn-pricing">{buttonText}</button>
+      
     </div>
   );
 }

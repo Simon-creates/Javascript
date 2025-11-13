@@ -86,6 +86,11 @@
     cursor: pointer;
     font-weight: 600;
 }
+.btn:hover{    
+    background-color: #12372A;
+    color:#ffffff;
+    transform: translateY(-2px);
+}
 
 .about_buttons {
     display: flex;
@@ -112,11 +117,7 @@
     font-size: 1.5rem;
     color: var(--secondary-color);
 }
-.about-buttons{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
+
 .about_info {
     display: flex;
     align-items: center;      
