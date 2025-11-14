@@ -43,7 +43,9 @@
 }
 .blog-bottom{
     display: flex;
+    gap: 2rem;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     width: 100%;
     padding: 0 0rem;   

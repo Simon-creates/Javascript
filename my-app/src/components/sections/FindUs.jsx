@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './FindUs.css';
 import ContactBox from '../component/ContactBox';
 

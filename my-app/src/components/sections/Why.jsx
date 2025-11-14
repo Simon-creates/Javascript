@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './Why.css';
 import WhyBox from '../component/WhyBox';
 

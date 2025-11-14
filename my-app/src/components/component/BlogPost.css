@@ -25,11 +25,28 @@
 .h3-blog{
     font-size: 1.25rem;
 }
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;  
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2rem;
+}
 .readmore{
     list-style: none;
     color: var(--secondary-color);
     padding: 0;
     margin-left: 0;
 }
+.blog-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
 
 
