@@ -12,7 +12,7 @@ export default function Looking() {
             <p className="looking-p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.
             </p>
-            <a href="#" class="btn btn--primary">Book Now</a> 
+            <a href="#" className="btn btn--primary">Book Now</a> 
         </div>           
     </section>    
   );

@@ -35,7 +35,7 @@ export default function About() {
                 </div>
 
                 <div className="about_buttons">
-                    <a href="#" class="btn btn--primary">Discover More</a>
+                    <a href="#" className="btn btn--primary">Discover More</a>
                     <div className="about_info">
                     <img src="/images/About_phone.svg" alt="About phone" className="about_phone-icon" />
                     <div className="about-phone">                        

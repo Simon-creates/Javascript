@@ -14,20 +14,20 @@ export default function Why() {
             <WhyBox 
             title="Security and Safety"
             children="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-            image="../public/images/Why1.svg"
+            image="./images/Why1.svg"
             >                
             </WhyBox>
             <WhyBox title="Flexible and Affordable"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-            image="../public/images/Why2.svg"
+            image="./images/Why2.svg"
             ></WhyBox>
             <WhyBox title="Clean and Well-Maintained Facilities"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-            image="../public/images/Why3.svg"
+            image="./images/Why3.svg"
             ></WhyBox>
             <WhyBox title="24/7 and Convenient Access"
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-            image="../public/images/Why4.svg"
+            image="./images/Why4.svg"
             ></WhyBox>       
         
         </div>
