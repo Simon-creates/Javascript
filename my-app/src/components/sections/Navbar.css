@@ -77,7 +77,7 @@
     font-weight: 600;
 }
 .book-button button:hover {
-    background-color: var(--secondary-color, #12372A);
+    color: #FFFFFF;
     transform: translateY(-2px);
-    color: var(--accent-color, #F1C30C);
+    background-color:  #12372A;
 }
