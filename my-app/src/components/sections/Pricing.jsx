@@ -43,7 +43,7 @@ export default function Pricing() {
             buttonText="Rent Now"    
             style={{ 
                 backgroundColor: '#12372A',
-                color: '#fff'
+                color: '#fff'                
             }}                       
             />
             <PricingBox 

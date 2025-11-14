@@ -41,8 +41,10 @@
     transform: translateX(-50%); 
     z-index: 2; /
 }
-.about_stats strong{
-    font-size: 500
+.about-strong {
+    font-size: 3rem;
+    color: #F1C30C;
+    font-weight: 700;
 }
 
 .about_subtitle {

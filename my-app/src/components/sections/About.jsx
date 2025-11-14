@@ -9,9 +9,9 @@ export default function About() {
             <div className="stats-wrapper">
                 <div className="gray-background"></div>
                 <div className="about_stats">
-                    <div><strong>12+</strong><span>Years of Experience</span></div>
-                    <div><strong>150K+</strong><span>Satisfied Clients</span></div>
-                    <div><strong>35+</strong><span>Warehouse</span></div>
+                    <div><div className="about-strong">12+</div><span>Years of Experience</span></div>
+                    <div><div className="about-strong">150K+</div><span>Satisfied Clients</span></div>
+                    <div><div className="about-strong">35+</div><span>Warehouse</span></div>
                 </div>
             </div>
 
