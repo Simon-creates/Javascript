@@ -1,0 +1,33 @@
+.contactbox-box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.contactbox-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background-color: #12372A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contactbox-icon-wrapper i {
+    color: #F1C30C;
+    font-size: 1.5rem;
+}
+
+.contactbox-text h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.contactbox-text .description {
+    margin: 0.3rem 0 0;
+    font-size: 1rem;
+    color: #12372A;
+}

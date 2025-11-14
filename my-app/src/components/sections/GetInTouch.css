@@ -1,0 +1,47 @@
+.getintouch{
+    background-color: #FFFFFF;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    padding-top: 1.5rem;
+}
+.getintouch_container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1450px;
+}
+.getintouch-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+.gray-background {
+    background-color: #d2d2d2;
+    border: 3px solid#ececec;
+    height: 400px;     
+    position: relative;    
+    z-index: 1;
+}
+
+.getintouch_subtitle {
+    color: var(--secondary-color);
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.getintouch_title {
+    font-size: 3rem;
+    color:  #12372A;
+    margin: 0.5rem 0 1rem;
+}
+
+.getintouch-form {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;    
+}

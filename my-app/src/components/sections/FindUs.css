@@ -1,0 +1,53 @@
+.FindUs-wrapper {
+    display: flex; 
+    justify-content: center;  
+    width: 100%;
+    height: 601px;
+    background-color: #12372acf;       
+}
+
+.FindUs-container {
+    max-width: 1400px;      
+    display: flex; 
+    justify-content: center;  
+}  
+.FindUs-image {
+    display: block;
+    height: auto;    
+    padding-right: 10rem;
+    padding-top: 6rem;
+}  
+
+.FindUs-right{
+    display: flex;
+    align-items: stretch;    
+    height: 601px;      
+    width: 600px;
+}
+.FindUs-content {
+    background-color: #aebea6b5;
+    color: #12372A;  
+    padding: 3rem;   
+}
+.FindUs-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.contact-social-media{
+    padding-top: 1rem;
+    display: flex;
+    
+}
+.social-media-title{
+    font-size: 1.5rem;
+}
+.social-divider{    
+    height: 2px; 
+    background-color: #12372A; 
+    border: none;  
+    margin: 1rem;
+    width: 100px;
+}
+
+
+
