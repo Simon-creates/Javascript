@@ -1,47 +1,112 @@
-.getintouch{
-    background-color: #FFFFFF;   
+.getintouch {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-bottom: 4rem;
-    padding-top: 1.5rem;
+    padding: 2rem 0 4rem;
+    background-color: #FFFFFF;
 }
+
 .getintouch_container {
     display: flex;
-    gap: 2rem;
-    align-items: center;
-    padding: 2rem;
+    gap: 4rem;
+    align-items: flex-start;
     max-width: 1450px;
 }
-.getintouch-wrapper {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 4rem 0;
-}
-.gray-background {
-    background-color: #d2d2d2;
-    border: 3px solid#ececec;
-    height: 400px;     
-    position: relative;    
-    z-index: 1;
+
+.left-content {
+    flex: 1;
 }
 
-.getintouch_subtitle {
-    color: var(--secondary-color);
+.getintouch-subtitle {
+    color: #F1C30C;
     font-weight: 600;
-    padding-top: 2rem;
 }
 
-.getintouch_title {
-    font-size: 3rem;
-    color:  #12372A;
+.getintouch-title {
+    color: #12372A;
+    font-size: 2.8rem;
+    font-weight: bold;
     margin: 0.5rem 0 1rem;
 }
 
-.getintouch-form {
+.getintouch-text {
+    max-width: 550px;
+    margin-bottom: 2rem;
+}
+
+.gray-box {
+    width: 550px;
+    height: 350px;
+    background-color: #c8c8c8;
+}
+
+.form-card {
+    flex: 1;
+    background-color: #FAF8EC;
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: -0.5rem;
+}
+
+.required {
+    color: red;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 2px solid #F1C30C;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.textarea {
+    height: 140px;
+    
+    resize: none;
+}
+
+.two-columns {
     display: flex;
     gap: 1rem;
-    margin: 1rem 0;    
+}
+.column {
+    flex: 1;
+}
+
+.submit-btn {
+    background-color: #F1C30C;
+    padding: 0.9rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 130px;
+    transition: 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #F1C30C;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.success-message {
+    color: #2ecc71;
+    font-size: 0.9rem;
 }
